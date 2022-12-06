@@ -1,0 +1,95 @@
+body {
+  background-color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: rgb(128, 114, 190);
+  line-height: 1.5;
+}
+
+main {
+  margin: 30px 2px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+h* {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 1.15em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.65em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table th {
+  font-weight: 700;
+  text-align: left;
+}
+
+table td,
+table th {
+  padding: 10px;
+  border: 1px solid rgb(177, 99, 99);
+}
+
+table tr:nth-child(odd) {
+  background-color: #d87a7a;
+}
+
+table tr:hover {
+  background-color: #be7b7b;
+}
+
+fieldset {
+  border: 1px solid rgb(210, 202, 202);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: 700;
+  padding: 0 5px;
+}
